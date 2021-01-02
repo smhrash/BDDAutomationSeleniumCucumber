@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="46.759">
+    <testcase classname="Homepage functionalities work properly" name="homepage functionality check" time="11.984">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When user mouse hover on Account Types menu.................................passed
+And user clicks on Core Portfolios link.....................................passed
+Then user should see Meet Core Portfolios text..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_2" time="6.976">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skmhra"..........................................passed
+And user enters password "Tim12357#"........................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_3" time="6.437">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skmhrsga"........................................passed
+And user enters password "lkTim12357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_4" time="6.368">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skjdmhra"........................................passed
+And user enters password "ouTim12357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_5" time="7.927">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Sklhmhra"........................................passed
+And user enters password "ytTim12357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_6" time="6.607">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skkhtmhra".......................................passed
+And user enters password "Tuim172357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

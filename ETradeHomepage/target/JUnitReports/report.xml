@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="37.434">
+    <testcase classname="Check Logon functionality" name="_2" time="8.219">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skmhra"..........................................passed
+And user enters password "Tim12357#"........................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_3" time="7.627">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skmhrsga"........................................passed
+And user enters password "lkTim12357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_4" time="7.78">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skjdmhra"........................................passed
+And user enters password "ouTim12357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_5" time="6.852">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Sklhmhra"........................................passed
+And user enters password "ytTim12357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check Logon functionality" name="_6" time="6.646">
+        <system-out>
+            <![CDATA[Given user is in homepage...................................................passed
+When User clicks on logon...................................................passed
+Then user enters username "Skkhtmhra".......................................passed
+And user enters password "Tuim172357#"......................................passed
+And user see the page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

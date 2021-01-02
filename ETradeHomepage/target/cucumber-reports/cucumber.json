@@ -1,0 +1,931 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-01T21:28:17.105Z",
+        "line": 4,
+        "name": "homepage functionality check",
+        "description": "",
+        "id": "homepage-functionalities-work-properly;homepage-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 211137000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5263698000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 84651000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is in homepage",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userIsInHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3208710000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 551000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user mouse hover on Account Types menu",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userMouseHoverOnAccountTypesMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3146771000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1213000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks on Core Portfolios link",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userClicksOnCorePortfoliosLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47772000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 582000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user should see Meet Core Portfolios text",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userShouldSeeMeetCorePortfoliosText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage functionalities work properly",
+    "description": "",
+    "id": "homepage-functionalities-work-properly",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ETrade.feature",
+    "tags": [
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-01T21:28:29.112Z",
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "check-logon-functionality;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 218950000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4519165000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 462000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is in homepage",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userIsInHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1791961000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 538000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks on logon",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userClicksOnLogon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310334000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 914000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters username \"Skmhra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skmhra\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122138000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1008000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters password \"Tim12357#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tim12357#\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4251000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 530000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user see the page title",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userSeeThePageTitle()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logonPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T21:28:36.099Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "check-logon-functionality;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 206135000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4071781000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 727000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is in homepage",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userIsInHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1549449000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 520000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks on logon",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userClicksOnLogon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 491426000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 593000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters username \"Skmhrsga\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skmhrsga\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106414000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 439000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters password \"lkTim12357#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lkTim12357#\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5010000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 422000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user see the page title",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userSeeThePageTitle()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logonPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T21:28:42.547Z",
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "check-logon-functionality;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 221467000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3772852000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 379000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is in homepage",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userIsInHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1866526000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 983000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks on logon",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userClicksOnLogon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 388666000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 444000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters username \"Skjdmhra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skjdmhra\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110224000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 384000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters password \"ouTim12357#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ouTim12357#\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3429000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 341000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user see the page title",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userSeeThePageTitle()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logonPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T21:28:48.925Z",
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "check-logon-functionality;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 196816000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5186640000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 407000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is in homepage",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userIsInHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2102259000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 546000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks on logon",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userClicksOnLogon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222939000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 556000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters username \"Sklhmhra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sklhmhra\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 201302000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 420000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters password \"ytTim12357#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ytTim12357#\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11407000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 530000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user see the page title",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userSeeThePageTitle()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logonPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T21:28:56.861Z",
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "check-logon-functionality;;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 202686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4049713000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 557000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is in homepage",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userIsInHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1602891000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 353000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks on logon",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userClicksOnLogon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 411581000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 428000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters username \"Skkhtmhra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skkhtmhra\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 326390000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 274000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters password \"Tuim172357#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tuim172357#\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.MyStepdefs.userEntersPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7998000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 710000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MyStepdefs.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user see the page title",
+            "match": {
+              "location": "stepDefinitions.MyStepdefs.userSeeThePageTitle()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logonPage"
+          }
+        ]
+      }
+    ],
+    "name": "Check Logon functionality",
+    "description": "",
+    "id": "check-logon-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Logon.feature",
+    "tags": [
+      {
+        "name": "@logonPage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
